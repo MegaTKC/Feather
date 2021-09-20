@@ -1,6 +1,4 @@
-![](http://shoghicp.github.com/PocketMine-MP/favicon.png)
-
-# PocketMine-MP
+# Feather
 
 ```
 This program is free software: you can redistribute it and/or modify
@@ -17,22 +15,11 @@ You should have received a copy of the GNU Lesser General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```	
 
-PocketMine-MP is a Server for Minecraft Pocket Edition. It has a Plugin API that enables a developer to extend it and add new features, or change default ones. The entire server is written in PHP, and has been tested, profiled and optimized to run smoothly.
+Feather is a server software created for Minecraft. Forked from Pocketmine, it has many performance enhancements and we can promise that your server will run on 20 tps. (Unless if there are too many entities on the server like, signs)
 
 This is a fork of the [v1.2.2 Alpha](https://github.com/PocketMine-MP/PocketMine-MP/releases/Alpha_1.2.2) release, the only compatible with all the game modes of Minecraft Pi, to enchance and extend the compatibility with MCPI and its mods. It has build script changes allowing it to be run on modern OSes.
 
 For installation and useage instructions, see https://mcpi.tk/howto/creating-servers.html and scroll down to the `PocketMine-MP` secton.
-
-### [Homepage](http://www.pocketmine.net/)
-
-### [FAQ: Frequently Asked Questions](https://github.com/shoghicp/PocketMine-MP/wiki/Frequently-Asked-Questions)
-
-### [Help Page](http://www.pocketmine.net/help.php)
-
-### [Twitter @PocketMine](https://twitter.com/PocketMine)
-
-## IRC #mcpedevs @ irc.freenode.net
-* [WebIRC](http://webchat.freenode.net?channels=mcpedevs&uio=d4)
 
 
 ## Third-party Libraries Used
