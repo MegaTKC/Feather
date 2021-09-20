@@ -86,7 +86,7 @@ class ServerAPI{
 		console("[DEBUG] Loading server.properties...", true, true, 2);
 		$this->config = new Config(DATA_PATH . "server.properties", CONFIG_PROPERTIES, array(
 			"server-name" => "Minecraft Server",
-			"description" => "Server made using PocketMine-MP",
+			"description" => "Server made using Feather",
 			"motd" => "Welcome @username to this server!",
 			"invisible" => false,
 			"server-ip" => "0.0.0.0",
