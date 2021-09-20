@@ -247,7 +247,7 @@ class ServerAPI{
 			$value = array("M" => 1, "G" => 1024);
 			$real = ((int) substr($memory, 0, -1)) * $value[substr($memory, -1)];
 			if($real < 128){
-				console("[ERROR] PocketMine doesn't work right with less than 128MB of RAM", true, true, 0);
+				console("[ERROR] Feather doesn't work right with less than 128MB of RAM", true, true, 0);
 			}
 			@ini_set("memory_limit", $memory);
 		}else{
