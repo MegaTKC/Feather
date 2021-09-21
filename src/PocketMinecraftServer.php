@@ -457,7 +457,7 @@ class PocketMinecraftServer{
 			pcntl_signal(SIGHUP, array($this, "close"));
 		}
 		$this->trigger("server.start", microtime(true));
-		console("[INFO] Server started!");
+		console("[INFO] Done! For a list of commands, type help or ?");
 		$this->process();
 	}
 
