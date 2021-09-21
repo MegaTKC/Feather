@@ -100,7 +100,7 @@ class PocketMinecraftServer{
 	
 	public function titleTick(){
 		if(ENABLE_ANSI === true){
-			echo "\x1b]0;PocketMine-MP ".MAJOR_VERSION." | Online ". count($this->clients)." | RAM ".round((memory_get_usage(true) / 1024) / 1024, 2)."MB | TPS ".$this->getTPS()."\x07";
+			echo "\x1b]0;Feather ".MAJOR_VERSION." | Online ". count($this->clients)." | RAM ".round((memory_get_usage(true) / 1024) / 1024, 2)."MB | TPS ".$this->getTPS()."\x07";
 		}
 	}
 
