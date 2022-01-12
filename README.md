@@ -15,7 +15,7 @@ You should have received a copy of the GNU Lesser General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```	
 
-Feather is a server software created for Minecraft. Forked from Pocketmine, it has many performance enhancements and we can promise that your server will run on 20 tps. (Unless if there are too many entities on the server like, signs)
+Feather is a server software created for Minecraft. Forked from TheBrokenRail's Pocketmine https://github.com/MCPI-Revival/Pocketmine-MP, it has many performance enhancements and we can promise that your server will run on 20 tps. (Unless if there are too many entities on the server like, signs). 
 
 This is a fork of the [v1.2.2 Alpha](https://github.com/PocketMine-MP/PocketMine-MP/releases/Alpha_1.2.2) release, the only compatible with all the game modes of Minecraft Pi, to enchance and extend the compatibility with MCPI and its mods. It has build script changes allowing it to be run on modern OSes.
 
