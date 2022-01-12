@@ -32,7 +32,7 @@ class PocketMinecraftServer{
 
 	private function load(){
 		$this->version = new VersionString();
-		console("[INFO] \x1b[33;1mFeather ".MAJOR_VERSION." #".$this->version->getNumber()." by @shoghicp, LGPL License", true, true, 0);
+		console("[INFO] \x1b[33;1mFeather-Pocketmine ".MAJOR_VERSION." #".$this->version->getNumber()." by @shoghicp, LGPL License", true, true, 0);
 		console("[INFO] Target Minecraft PE/PI: \x1b[36;1m".CURRENT_MINECRAFT_VERSION."\x1b[0m, protocol #".CURRENT_PROTOCOL, true, true, 0);
 		if($this->version->isDev()){
 			console("[INFO] \x1b[31;1mThis is a Development version");
